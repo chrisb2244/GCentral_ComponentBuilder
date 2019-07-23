@@ -4,6 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Post-Build Action_SrcDist.vi" Type="VI" URL="/&lt;userlib&gt;/_Cirrus Logic/Component Builder/Build/Custom Build Steps/NIPKG_LV/Post-Build Action_SrcDist.vi"/>
-	<Item Name="Pre-Build Action_SrcDist.vi" Type="VI" URL="/&lt;userlib&gt;/_Cirrus Logic/Component Builder/Build/Custom Build Steps/NIPKG_LV/Pre-Build Action_SrcDist.vi"/>
+	<Item Name="Post-Build Action_SrcDist.vi" Type="VI" URL="../Post-Build Action_SrcDist.vi"/>
+	<Item Name="Pre-Build Action_SrcDist.vi" Type="VI" URL="../Pre-Build Action_SrcDist.vi"/>
 </Library>
