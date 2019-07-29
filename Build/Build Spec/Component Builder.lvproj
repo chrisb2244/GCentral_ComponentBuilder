@@ -903,10 +903,7 @@
 			</Item>
 			<Item Name="NIPKG" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
 				<Property Name="NIPKG_license" Type="Ref"></Property>
-				<Property Name="NIPKG_releaseNotes" Type="Str">
-
-
-&lt;Upgrade Information&gt;
+				<Property Name="NIPKG_releaseNotes" Type="Str">&lt;Upgrade Information&gt;
 
    Upgraded:    toolchainsupport-labview-scc-api-nipkg-lv
            From:    1.0.0-19
@@ -916,7 +913,7 @@
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
 				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
 				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
-				<Property Name="PKG_buildNumber" Type="Int">113</Property>
+				<Property Name="PKG_buildNumber" Type="Int">0</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">NIPKG</Property>
 				<Property Name="PKG_dependencies.Count" Type="Int">4</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
@@ -1004,7 +1001,7 @@
 				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/SrcDist</Property>
 				<Property Name="PKG_sources[0].Type" Type="Str">Build</Property>
 				<Property Name="PKG_synopsis" Type="Str">(synopsis) ComponenetBuilder is designed to build a GSource componenet as defined here: http://docs.cirrus.com/x/wh_oAw. </Property>
-				<Property Name="PKG_version" Type="Str">1.4.0</Property>
+				<Property Name="PKG_version" Type="Str">1.5.0</Property>
 			</Item>
 		</Item>
 	</Item>
