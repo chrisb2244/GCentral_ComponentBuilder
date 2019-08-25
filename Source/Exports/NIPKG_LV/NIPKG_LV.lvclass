@@ -207,6 +207,15 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 			</Item>
+			<Item Name="Uninstall Dependencies.vi" Type="VI" URL="../API/Uninstall Dependencies.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%'!!!!"!"'1(!!(A!!-2Z$4&amp;^(-V^735.P&lt;8"P&lt;G6O&gt;%*V;7RE:8)O&lt;(:M;7)14EF13U&gt;@4&amp;9O&lt;(:D&lt;'&amp;T=Q!,4EF13U&gt;@4&amp;9A;7Y!"!!!!%B!=!!?!!!R(E.-8U=T8V:*1W^N='^O:7ZU1H6J&lt;'2F=CZM&gt;GRJ9B"/36",2V^-6CZM&gt;G.M98.T!!R/36",2V^-6C"P&gt;81!!'Q!]!!1!!!!!1!"!!%!!A!"!!%!!1!"!!%!!1!"!!%!!1!"!!%$!!%)!!#3!!!!!!!!!!!!!!!!!!!!D1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!Q!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			</Item>
 			<Item Name="Upgrade Component Dependencies.vi" Type="VI" URL="../API/Upgrade Component Dependencies.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;D!!!!#1"'1(!!(A!!-2Z$4&amp;^(-V^735.P&lt;8"P&lt;G6O&gt;%*V;7RE:8)O&lt;(:M;7)14EF13U&gt;@4&amp;9O&lt;(:D&lt;'&amp;T=Q!,4EF13U&gt;@4&amp;9A;7Y!"!!!!%B!=!!?!!!R(E.-8U=T8V:*1W^N='^O:7ZU1H6J&lt;'2F=CZM&gt;GRJ9B"/36",2V^-6CZM&gt;G.M98.T!!R/36",2V^-6C"P&gt;81!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!-!"!!&amp;%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!"!!%!!1!"!!%!!1!'!!%!!1!"!!=$!!%)!!#1!!!!!!!!!!!!!!!!!!!!C1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!*!!!!!!%!#!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -216,15 +225,6 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1107825168</Property>
 				<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
-			</Item>
-			<Item Name="Uninstall Dependencies.vi" Type="VI" URL="../API/Uninstall Dependencies.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%'!!!!"!"'1(!!(A!!-2Z$4&amp;^(-V^735.P&lt;8"P&lt;G6O&gt;%*V;7RE:8)O&lt;(:M;7)14EF13U&gt;@4&amp;9O&lt;(:D&lt;'&amp;T=Q!,4EF13U&gt;@4&amp;9A;7Y!"!!!!%B!=!!?!!!R(E.-8U=T8V:*1W^N='^O:7ZU1H6J&lt;'2F=CZM&gt;GRJ9B"/36",2V^-6CZM&gt;G.M98.T!!R/36",2V^-6C"P&gt;81!!'Q!]!!1!!!!!1!"!!%!!A!"!!%!!1!"!!%!!1!"!!%!!1!"!!%$!!%)!!#3!!!!!!!!!!!!!!!!!!!!D1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!Q!!!!!</Property>
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 			</Item>
 		</Item>
 	</Item>

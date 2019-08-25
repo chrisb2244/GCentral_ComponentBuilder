@@ -327,8 +327,6 @@
 				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
 				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
 				<Item Name="G3_SCC.lvlib" Type="Library" URL="/&lt;userlib&gt;/_Cirrus Logic/LabVIEW SCC API/Source/G3_SCC.lvlib"/>
-				<Item Name="NIPKG BuildSpec API.lvlib" Type="Library" URL="/&lt;userlib&gt;/_Cirrus Logic/NI Package Manager BldSpec Utils/Source/NIPKG BuildSpec API.lvlib"/>
-				<Item Name="TCS_NIPKG_API.lvlib" Type="Library" URL="/&lt;userlib&gt;/_Cirrus Logic/NI Package Manager API/Source/TCS_NIPKG_API.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -909,13 +907,8 @@
 &lt;Upgrade Information&gt;
 
    Upgraded:    cilino-labviewcontainer
-           From:    2.1.0-3
-              To:     2.1.0-4
-
-
-   Upgraded:    toolchainsupport-labview-scc-api-nipkg-lv
-           From:    1.1.0-2
-              To:     1.1.0-4
+           From:    2.1.0-4
+              To:     2.1.0-6
 
 &lt;/Upgrade Information&gt;</Property>
 				<Property Name="PKG_actions.Count" Type="Int">0</Property>
@@ -923,11 +916,11 @@
 				<Property Name="PKG_autoSelectDeps" Type="Bool">false</Property>
 				<Property Name="PKG_buildNumber" Type="Int">8</Property>
 				<Property Name="PKG_buildSpecName" Type="Str">NIPKG</Property>
-				<Property Name="PKG_dependencies.Count" Type="Int">5</Property>
+				<Property Name="PKG_dependencies.Count" Type="Int">4</Property>
 				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[0].MaxVersion" Type="Str"></Property>
 				<Property Name="PKG_dependencies[0].MaxVersionInclusive" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[0].MinVersion" Type="Str">2.1.0-4</Property>
+				<Property Name="PKG_dependencies[0].MinVersion" Type="Str">2.1.0-6</Property>
 				<Property Name="PKG_dependencies[0].MinVersionType" Type="Str">Inclusive</Property>
 				<Property Name="PKG_dependencies[0].NIPKG.DisplayName" Type="Str">LabVIEW Container - NIPKG</Property>
 				<Property Name="PKG_dependencies[0].Package.Name" Type="Str">cilino-labviewcontainer</Property>
@@ -938,47 +931,36 @@
 				<Property Name="PKG_dependencies[1].Enhanced" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[1].MaxVersion" Type="Str"></Property>
 				<Property Name="PKG_dependencies[1].MaxVersionInclusive" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[1].MinVersion" Type="Str">18.0.0.49152-0+f0</Property>
+				<Property Name="PKG_dependencies[1].MinVersion" Type="Str">17.5.0.49152-0+f0</Property>
 				<Property Name="PKG_dependencies[1].MinVersionType" Type="Str">Inclusive</Property>
-				<Property Name="PKG_dependencies[1].NIPKG.DisplayName" Type="Str">Package Building Support for LabVIEW 2017 (32-bit)</Property>
-				<Property Name="PKG_dependencies[1].Package.Name" Type="Str">ni-package-builder-labview-2017-support-x86</Property>
+				<Property Name="PKG_dependencies[1].NIPKG.DisplayName" Type="Str">Package Building Support for LabVIEW 2014 (32-bit)</Property>
+				<Property Name="PKG_dependencies[1].Package.Name" Type="Str">ni-package-builder-labview-2014-support-x86</Property>
 				<Property Name="PKG_dependencies[1].Package.Section" Type="Str">Add-Ons</Property>
-				<Property Name="PKG_dependencies[1].Package.Synopsis" Type="Str">Allows building packages from LabVIEW 2017 (32-bit)</Property>
+				<Property Name="PKG_dependencies[1].Package.Synopsis" Type="Str">Allows building packages from LabVIEW 2014 (32-bit)</Property>
 				<Property Name="PKG_dependencies[1].Relationship" Type="Str">Recommended Dependency</Property>
 				<Property Name="PKG_dependencies[1].Type" Type="Str">NIPKG</Property>
 				<Property Name="PKG_dependencies[2].Enhanced" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[2].MaxVersion" Type="Str"></Property>
 				<Property Name="PKG_dependencies[2].MaxVersionInclusive" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[2].MinVersion" Type="Str">1.1.0-4</Property>
+				<Property Name="PKG_dependencies[2].MinVersion" Type="Str">18.0.0.49152-0+f0</Property>
 				<Property Name="PKG_dependencies[2].MinVersionType" Type="Str">Inclusive</Property>
-				<Property Name="PKG_dependencies[2].NIPKG.DisplayName" Type="Str">LabVIEW SCC API - nipkg - lv</Property>
-				<Property Name="PKG_dependencies[2].Package.Name" Type="Str">toolchainsupport-labview-scc-api-nipkg-lv</Property>
-				<Property Name="PKG_dependencies[2].Package.Section" Type="Str">Infrastructure</Property>
-				<Property Name="PKG_dependencies[2].Package.Synopsis" Type="Str">Models serve based SCC systems.</Property>
-				<Property Name="PKG_dependencies[2].Relationship" Type="Str">Required Dependency</Property>
+				<Property Name="PKG_dependencies[2].NIPKG.DisplayName" Type="Str">Package Building Support for LabVIEW 2017 (32-bit)</Property>
+				<Property Name="PKG_dependencies[2].Package.Name" Type="Str">ni-package-builder-labview-2017-support-x86</Property>
+				<Property Name="PKG_dependencies[2].Package.Section" Type="Str">Add-Ons</Property>
+				<Property Name="PKG_dependencies[2].Package.Synopsis" Type="Str">Allows building packages from LabVIEW 2017 (32-bit)</Property>
+				<Property Name="PKG_dependencies[2].Relationship" Type="Str">Recommended Dependency</Property>
 				<Property Name="PKG_dependencies[2].Type" Type="Str">NIPKG</Property>
 				<Property Name="PKG_dependencies[3].Enhanced" Type="Bool">false</Property>
 				<Property Name="PKG_dependencies[3].MaxVersion" Type="Str"></Property>
 				<Property Name="PKG_dependencies[3].MaxVersionInclusive" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[3].MinVersion" Type="Str">1.0.0-13</Property>
+				<Property Name="PKG_dependencies[3].MinVersion" Type="Str">1.1.0-4</Property>
 				<Property Name="PKG_dependencies[3].MinVersionType" Type="Str">Inclusive</Property>
-				<Property Name="PKG_dependencies[3].NIPKG.DisplayName" Type="Str">NI Package Manager API - NIPKG - LV</Property>
-				<Property Name="PKG_dependencies[3].Package.Name" Type="Str">toolchainsupport-ni-package-manager-api-nipkg-lv</Property>
-				<Property Name="PKG_dependencies[3].Package.Section" Type="Str">Infrastructure</Property>
-				<Property Name="PKG_dependencies[3].Package.Synopsis" Type="Str">The VIs that wrap NI Package Manager api</Property>
+				<Property Name="PKG_dependencies[3].NIPKG.DisplayName" Type="Str">OpenG Library</Property>
+				<Property Name="PKG_dependencies[3].Package.Name" Type="Str">toolchainsupport-labview-scc-api-nipkg-lv</Property>
+				<Property Name="PKG_dependencies[3].Package.Section" Type="Str"></Property>
+				<Property Name="PKG_dependencies[3].Package.Synopsis" Type="Str"></Property>
 				<Property Name="PKG_dependencies[3].Relationship" Type="Str">Required Dependency</Property>
-				<Property Name="PKG_dependencies[3].Type" Type="Str">NIPKG</Property>
-				<Property Name="PKG_dependencies[4].Enhanced" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[4].MaxVersion" Type="Str"></Property>
-				<Property Name="PKG_dependencies[4].MaxVersionInclusive" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[4].MinVersion" Type="Str">1.0.0-9</Property>
-				<Property Name="PKG_dependencies[4].MinVersionType" Type="Str">Inclusive</Property>
-				<Property Name="PKG_dependencies[4].NIPKG.DisplayName" Type="Str">NI Package Manager BldSpec Utils - NIPKG - LV</Property>
-				<Property Name="PKG_dependencies[4].Package.Name" Type="Str">toolchainsupport-nipkg-bldspec-utils-nipkg-lv</Property>
-				<Property Name="PKG_dependencies[4].Package.Section" Type="Str">Infrastructure</Property>
-				<Property Name="PKG_dependencies[4].Package.Synopsis" Type="Str">A series of utilities to interact with ni package build specifications of a labview project.</Property>
-				<Property Name="PKG_dependencies[4].Relationship" Type="Str">Required Dependency</Property>
-				<Property Name="PKG_dependencies[4].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_dependencies[3].Type" Type="Str">Package</Property>
 				<Property Name="PKG_description" Type="Str">(description) Componenet Builder is designed to build a G3 Source componenet as defined here: http://docs.cirrus.com/x/wh_oAw. </Property>
 				<Property Name="PKG_destinations.Count" Type="Int">6</Property>
 				<Property Name="PKG_destinations[0].ID" Type="Str">{29F2E116-C85F-4395-9FBE-10E214C46C95}</Property>
